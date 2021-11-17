@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 70.0.3538 (Mac OS X 10.14.1)" package="" timestamp="2018-12-06T20:47:40" id="0" hostname="Guilhermes-MacBook-Pro.local" tests="14" errors="0" failures="10" time="0.778">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/70.0.3538.110 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.075" classname="AppComponent"/>
+  <testcase name="SignupFormComponent should be created" time="0.199" classname="SignupFormComponent"/>
+  <testcase name="SignupFormComponent has a form control" time="0.044" classname="SignupFormComponent"/>
+  <testcase name="SignupFormComponent has &quot;username&quot; form control" time="0.068" classname="SignupFormComponent">
+    <failure type="">Expected [  ] to contain 'username', 'Missing NgModel or FormControl'.
+    at UserContext.eval (webpack:///./src/app/components/user/signup-form/signup-form.component.spec.ts?:67:37)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:127:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:386:32)
+</failure>
+  </testcase>
+  <testcase name="SignupFormComponent should validate username is required" time="0.039" classname="SignupFormComponent">
+    <failure type="">Expected null to be truthy 'Username valid when not empty'.
+    at UserContext.eval (webpack:///./src/app/components/user/signup-form/signup-form.component.spec.ts?:77:42)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:127:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:386:32)
+</failure>
+  </testcase>
+  <testcase name="SignupFormComponent should validate email is correct" time="0.034" classname="SignupFormComponent">
+    <failure type="">Expected null to be truthy 'Email should be valid'.
+    at UserContext.eval (webpack:///./src/app/components/user/signup-form/signup-form.component.spec.ts?:88:42)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:127:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:386:32)
+</failure>
+  </testcase>
+  <testcase name="SignupFormComponent should validate password with pattern - at least 8 letters, numbers and uppercase" time="0.035" classname="SignupFormComponent">
+    <failure type="">Expected null to be truthy 'Password should be valid'.
+    at UserContext.eval (webpack:///./src/app/components/user/signup-form/signup-form.component.spec.ts?:99:42)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:127:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:386:32)
+</failure>
+  </testcase>
+  <testcase name="SignupFormComponent should validate passwords match" time="0.036" classname="SignupFormComponent">
+    <failure type="">Expected null to be truthy 'Match should be valid'.
+    at UserContext.eval (webpack:///./src/app/components/user/signup-form/signup-form.component.spec.ts?:113:54)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:127:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:386:32)
+</failure>
+  </testcase>
+  <testcase name="SignupFormComponent has .form-username-error when username is invalid" time="0.044" classname="SignupFormComponent">
+    <failure type="">Expected HTMLNode to be falsy 'Error message should not be present'.
+    at UserContext.eval (webpack:///./src/app/components/user/signup-form/signup-form.component.spec.ts?:120:42)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:127:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:386:32)
+</failure>
+  </testcase>
+  <testcase name="SignupFormComponent has .form-password_match-error when password_match is invalid" time="0.037" classname="SignupFormComponent">
+    <failure type="">Expected HTMLNode to be falsy 'Error message should not be present'.
+    at UserContext.eval (webpack:///./src/app/components/user/signup-form/signup-form.component.spec.ts?:131:48)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:127:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:386:32)
+</failure>
+  </testcase>
+  <testcase name="SignupFormComponent Inputs Outputs should emit &quot;save&quot; event when form submitted" time="0.065" classname="SignupFormComponent Inputs Outputs">
+    <failure type="">Expected spy submit to have been called.
+    at UserContext.eval (webpack:///./src/app/components/user/signup-form/signup-form.component.spec.ts?:217:34)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:127:39)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:386:32)
+</failure>
+  </testcase>
+  <testcase name="component: RoutingComponent navigate to &quot;&quot; takes you to /signup-form" time="0.059" classname="component: RoutingComponent">
+    <failure type="">Expected '/' to be '/signup-form'.
+    at eval (webpack:///./src/app/route.spec.ts?:56:37)
+    at ZoneDelegate.invoke (webpack:///./node_modules/zone.js/dist/zone.js?:387:26)
+    at AsyncTestZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/async-test.js?:105:39)
+    at ProxyZoneSpec.onInvoke (webpack:///./node_modules/zone.js/dist/proxy.js?:124:39)
+</failure>
+  </testcase>
+  <testcase name="component: RoutingComponent navigate to &quot;signup-details&quot; takes you to /signup-details" time="0.037" classname="component: RoutingComponent">
+    <failure type="">Error: Cannot match any routes. URL Segment: 'signup-details'
+    at ApplyRedirects.noMatchError (webpack:///./node_modules/@angular/router/fesm5/router.js?:1455:16)
+    at CatchSubscriber.eval [as selector] (webpack:///./node_modules/@angular/router/fesm5/router.js?:1436:29)
+    at CatchSubscriber.error (webpack:///./node_modules/rxjs/_esm5/internal/operators/catchError.js?:40:31)
+    at MapSubscriber.Subscriber._error (webpack:///./node_modules/rxjs/_esm5/internal/Subscriber.js?:90:26)
+    at MapSubscriber.Subscriber.error (webpack:///./node_modules/rxjs/_esm5/internal/Subscriber.js?:70:18)
+    at MapSubscriber.Subscriber._error (webpack:///./node_modules/rxjs/_esm5/internal/Subscriber.js?:90:26)
+    at MapSubscriber.Subscriber.error (webpack:///./node_modules/rxjs/_esm5/internal/Subscriber.js?:70:18)
+    at MapSubscriber.Subscriber._error (webpack:///./node_modules/rxjs/_esm5/internal/Subscriber.js?:90:26)
+    at MapSubscriber.Subscriber.error (webpack:///./node_modules/rxjs/_esm5/internal/Subscriber.js?:70:18)
+    at TapSubscriber._error (webpack:///./node_modules/rxjs/_esm5/internal/operators/tap.js?:67:26)
+Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'signup-details'
+    at resolvePromise (webpack:///./node_modules/zone.js/dist/zone.js?:813:31)
+    at resolvePromise (webpack:///./node_modules/zone.js/dist/zone.js?:770:17)
+    at eval (webpack:///./node_modules/zone.js/dist/zone.js?:872:17)
+    at ZoneDelegate.invokeTask (webpack:///./node_modules/zone.js/dist/zone.js?:420:31)
+    at AsyncTestZoneSpec.onInvokeTask (webpack:///./node_modules/zone.js/dist/async-test.js?:89:25)
+    at ProxyZoneSpec.onInvokeTask (webpack:///./node_modules/zone.js/dist/proxy.js?:155:39)
+    at ZoneDelegate.invokeTask (webpack:///./node_modules/zone.js/dist/zone.js?:419:36)
+    at Zone.runTask (webpack:///./node_modules/zone.js/dist/zone.js?:187:47)
+    at drainMicroTaskQueue (webpack:///./node_modules/zone.js/dist/zone.js?:594:35)
+</failure>
+  </testcase>
+  <testcase name="AppServices should be created" time="0.006" classname="AppServices"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 70.0.3538 (Mac OS X 10.14.1) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+,HeadlessChrome 70.0.3538 (Mac OS X 10.14.1) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

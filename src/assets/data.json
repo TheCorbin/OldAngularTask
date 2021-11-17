@@ -1,0 +1,252 @@
+{
+  "countries": [
+    {
+      "id": "1",
+      "name": "United States"
+    },
+    {
+      "id": "2",
+      "name": "India"
+    },
+    {
+      "id": "3",
+      "name": "Australia"
+    },
+    {
+      "id": "4",
+      "name": "New Zealand"
+    },
+    {
+      "id": "5",
+      "name": "South Africa"
+    },
+    {
+      "id": "6",
+      "name": "United Kingdom"
+    }
+
+  ],
+
+  "states": [
+    {
+      "id": "1,",
+      "parentid": 1,
+      "name": "Alabama"
+    },
+    {
+      "id": "2,",
+      "parentid": 1,
+      "name": "Alaska"
+    },
+    {
+      "id": "3,",
+      "parentid": 1,
+      "name": "Arizona"
+    },
+    {
+      "id": "5,",
+      "parentid": 1,
+      "name": "Arkansas"
+    },
+    {
+      "id": "6,",
+      "parentid": 1,
+      "name": "California"
+    },
+    {
+      "id": "7,",
+      "parentid": 1,
+      "name": "Colorado"
+    },
+    {
+      "id": "8,",
+      "parentid": 1,
+      "name": "Connecticut"
+    },
+    {
+      "id": "9,",
+      "parentid": 1,
+      "name": "Delaware"
+    },
+    {
+      "id": "10",
+      "parentid": 1,
+      "name": "Florida"
+    },
+    {
+      "id": "11",
+      "parentid": 1,
+      "name": "Georgia"
+    },
+    {
+      "id": "12",
+      "parentid": 1,
+      "name": "Hawaii"
+    },
+    {
+      "id": "13",
+      "parentid": 1,
+      "name": "Idaho"
+    },
+    {
+      "id": "14",
+      "parentid": 1,
+      "name": "Illinois"
+    },
+    {
+      "id": "15",
+      "parentid": 1,
+      "name": "Indiana"
+    },
+    {
+      "id": "16",
+      "parentid": 2,
+      "name": "New Delhi"
+    },
+    {
+      "id": "17",
+      "parentid": 2,
+      "name": "Maharashtra"
+    },
+    {
+      "id": "18",
+      "parentid": 2,
+      "name": "Goa"
+    },
+    {
+      "id": "19",
+      "parentid": 2,
+      "name": "Punjab"
+    },
+    {
+      "id": "20",
+      "parentid": 2,
+      "name": "Haryana"
+    },
+    {
+      "id": "21",
+      "parentid": 2,
+      "name": "Uttar Pradesh"
+    },
+    {
+      "id": "22",
+      "parentid": 2,
+      "name": "Rajasthan"
+    },
+    {
+      "id": "23",
+      "parentid": 2,
+      "name": "Andhra Pradesh"
+    },
+    {
+      "id": "24",
+      "parentid": 2,
+      "name": "Jharkhand"
+    },
+    {
+      "id": "25",
+      "parentid": 2,
+      "name": "Madhya Pradesh"
+    },
+    {
+      "id": "26",
+      "parentid": 3,
+      "name": "New South Wales"
+    },
+    {
+      "id": "27",
+      "parentid": 3,
+      "name": "Tasmania"
+    },
+    {
+      "id": "28",
+      "parentid": 3,
+      "name": "Qweensland"
+    },
+    {
+      "id": "29",
+      "parentid": 3,
+      "name": "Western Australia"
+    },
+    {
+      "id": "30",
+      "parentid": 3,
+      "name": "Victoria"
+    },
+    {
+      "id": "31",
+      "parentid": 4,
+      "name": "Auckland"
+    },
+    {
+      "id": "32",
+      "parentid": 4,
+      "name": "Wellington"
+    },
+    {
+      "id": "33",
+      "parentid": 4,
+      "name": "Christchurch"
+    },
+    {
+      "id": "34",
+      "parentid": 4,
+      "name": "Hamilton"
+    },
+    {
+      "id": "35",
+      "parentid": 4,
+      "name": "Napier"
+    },
+    {
+      "id": "31",
+      "parentid": 5,
+      "name": "Eastern Cape"
+    },
+    {
+      "id": "32",
+      "parentid": 5,
+      "name": "Limpopo"
+    },
+    {
+      "id": "33",
+      "parentid": 5,
+      "name": "Mpumalanga"
+    },
+    {
+      "id": "34",
+      "parentid": 5,
+      "name": "North West"
+    },
+    {
+      "id": "35",
+      "parentid": 5,
+      "name": "Northern Cape"
+    },
+    {
+      "id": "31",
+      "parentid": 6,
+      "name": "Herefordshire"
+    },
+    {
+      "id": "32",
+      "parentid": 6,
+      "name": "Durham"
+    },
+    {
+      "id": "33",
+      "parentid": 6,
+      "name": "Manchester"
+    },
+    {
+      "id": "34",
+      "parentid": 6,
+      "name": "South Yorkshire"
+    },
+    {
+      "id": "35",
+      "parentid": 6,
+      "name": "Birmingham"
+    }
+  ]
+}
